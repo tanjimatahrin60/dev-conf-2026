@@ -146,6 +146,7 @@
 /* card style */
 .price-section{
     margin-top: 176px;
+    margin-bottom: 130px;
 }
 
 .price-section h2 {
@@ -288,3 +289,104 @@
 }
 
 /* ai style */
+/* Container */
+.hackathon-arena__container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Section */
+.hackathon-arena {
+  background: #0D1B2A;
+  color: #ffffff;
+  padding: 80px 20px;
+}
+
+/* Title */
+.hackathon-arena__title {
+  font-size: 36px;
+  margin-bottom: 10px;
+}
+
+.hackathon-arena__subtitle {
+  color: #b0b8c4;
+  margin-bottom: 25px;
+}
+
+/* Status */
+.hackathon-arena__status {
+  display: inline-block;
+  background: #1b263b;
+  padding: 8px 18px;
+  border-radius: 20px;
+  font-size: 14px;
+  margin-bottom: 30px;
+}
+
+/* Info */
+.hackathon-arena__info {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.hackathon-arena__info-box {
+  background: #1b263b;
+  padding: 20px;
+  border-radius: 10px;
+  width: 200px;
+}
+
+.hackathon-arena__info-box h3 {
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+
+.hackathon-arena__info-box p {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Categories */
+.hackathon-arena__categories {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 40px;
+}
+
+.hackathon-arena__card {
+  background: #1b263b;
+  padding: 20px;
+  border-radius: 10px;
+  width: 250px;
+  transition: 0.3s;
+}
+
+.hackathon-arena__card:hover {
+  transform: translateY(-5px);
+}
+
+.hackathon-arena__card h4 {
+  margin-bottom: 10px;
+}
+
+/* Button */
+.hackathon-arena__btn {
+  display: inline-block;
+  padding: 12px 28px;
+  background: #2563EB;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 25px;
+  transition: 0.3s;
+}
+
+.hackathon-arena__btn:hover {
+  background: #1d4ed8;
+}
