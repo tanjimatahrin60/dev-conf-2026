@@ -39,3 +39,47 @@
     border-radius: 10px;
     padding: 12px 41.5px;
 }
+.banner-container {
+  background-image:
+    linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("../images/banner.jpg");
+  padding: 136px 0px 79px 0px;
+}
+
+.banner-box {
+  max-width: 959px;
+  margin: auto;
+}
+
+.banner-container h1 {
+  color: #ffffff;
+  font-size: 80px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.banner-container span {
+  font-style: italic;
+}
+
+.banner-container p {
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 278px;
+}
+
+.btn-primary {
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  background-color: #1d4ed8;
+  border: none;
+  border-radius: 10px;
+  padding: 12px 41.5px;
+  cursor: pointer;
+  display: block;
+  margin: auto;
+}
