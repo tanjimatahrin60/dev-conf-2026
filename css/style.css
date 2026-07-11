@@ -289,40 +289,41 @@
 }
 
 /* ai style */
-/* Container */
-.hackathon-arena__container {
-  width: 90%;
-  max-width: 1100px;
-  margin: 0 auto;
-  text-align: center;
+/* Section (NO background here) */
+.hackathon-arena {
+  padding: 80px 0;
 }
 
-/* Section */
-.hackathon-arena {
+/* 🔥 This is your colored box */
+.hackathon-arena__box {
   background: #0D1B2A;
   color: #ffffff;
-  padding: 80px 20px;
+  padding: 60px 20px;
+  border-radius: 12px; /* optional but looks premium */
 }
 
 /* Title */
 .hackathon-arena__title {
   font-size: 36px;
   margin-bottom: 10px;
+  text-align: center;
 }
 
 .hackathon-arena__subtitle {
   color: #b0b8c4;
   margin-bottom: 25px;
+  text-align: center;
 }
 
 /* Status */
 .hackathon-arena__status {
-  display: inline-block;
+  display: block;
+  width: fit-content;
+  margin: 0 auto 30px;
   background: #1b263b;
   padding: 8px 18px;
   border-radius: 20px;
   font-size: 14px;
-  margin-bottom: 30px;
 }
 
 /* Info */
@@ -339,16 +340,7 @@
   padding: 20px;
   border-radius: 10px;
   width: 200px;
-}
-
-.hackathon-arena__info-box h3 {
-  margin-bottom: 8px;
-  font-size: 16px;
-}
-
-.hackathon-arena__info-box p {
-  font-size: 18px;
-  font-weight: bold;
+  text-align: center;
 }
 
 /* Categories */
@@ -365,6 +357,7 @@
   padding: 20px;
   border-radius: 10px;
   width: 250px;
+  text-align: center;
   transition: 0.3s;
 }
 
@@ -372,13 +365,11 @@
   transform: translateY(-5px);
 }
 
-.hackathon-arena__card h4 {
-  margin-bottom: 10px;
-}
-
 /* Button */
 .hackathon-arena__btn {
-  display: inline-block;
+  display: block;
+  width: fit-content;
+  margin: 0 auto;
   padding: 12px 28px;
   background: #2563EB;
   color: #fff;
@@ -390,6 +381,7 @@
 .hackathon-arena__btn:hover {
   background: #1d4ed8;
 }
+
 
 /* footer style */
 .footer-section {
