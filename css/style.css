@@ -5,3 +5,37 @@
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
 }
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+.navbar{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 23.5px 0;
+
+}
+.nav-menu ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+}
+.nav-menu ul li{
+    list-style: none;
+}
+.nav-menu ul li a{
+    text-decoration: none;
+    color: #575757;
+}
+.nav-button{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #1D4ED8;
+    border: none;
+    border-radius: 10px;
+    padding: 12px 41.5px;
+}
